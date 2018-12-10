@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Alpha-Blog</title>
+    <title>AlphaBlog</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,7 +9,12 @@
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
     <%= render "layouts/messages" %>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+
   </body>
 </html>
