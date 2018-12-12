@@ -43,8 +43,14 @@
 }
 
 .article{
-  border: 2px solid black;
+  border: 1px solid #666666;
   background-color: #eaeaea;
+  margin: 5px;
+}
+
+.article-meta-details{
+  border-top: 1px solid black;
+  margin-top: 15px;
 }
 
 .btn-xs{
@@ -52,7 +58,7 @@
 }
 
 .article-actions{
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid black;
   padding-top: 5px;
 }
 
