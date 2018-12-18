@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0a394db-3c48-4833-a855-e859a46cb65a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/categories/_category.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/categories/_form.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/categories/edit.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/_article.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/_article.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/categories/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/categories/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/new.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/categories/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/categories/show.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -72,17 +69,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="510">
+              <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/categories/index.html.erb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+            <state relative-caret-position="17">
+              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/categories/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -90,17 +105,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+            <state relative-caret-position="68">
+              <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+            <state relative-caret-position="85">
+              <caret line="5" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -133,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20181206133108_add_descritpion_to_articles.rb" />
-        <option value="$PROJECT_DIR$/app/views/welcome/about.html.erb" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/14d0ace4-de3a-4975-ad7d-8b4fff3e380e/console.sql" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
@@ -170,7 +183,6 @@
         <option value="$PROJECT_DIR$/test/integration/create_categories_test.rb" />
         <option value="$PROJECT_DIR$/app/views/users/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/categories/new.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20181218115721_create_article_categories.rb" />
         <option value="$PROJECT_DIR$/app/models/article_category.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
@@ -179,11 +191,14 @@
         <option value="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/_category.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/articles/_article.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/categories/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/categories/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/categories/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/categories/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/categories/show.html.erb" />
       </list>
     </option>
   </component>
@@ -217,6 +232,19 @@
               <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alpha-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alpha-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -389,7 +417,7 @@
       <workItem from="1545054010959" duration="261000" />
       <workItem from="1545054406108" duration="251000" />
       <workItem from="1545054712309" duration="4734000" />
-      <workItem from="1545126240745" duration="11466000" />
+      <workItem from="1545126240745" duration="13441000" />
     </task>
     <task id="LOCAL-00001" summary="rails app">
       <created>1544095840922</created>
@@ -402,7 +430,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126820000" />
+    <option name="totallyTimeSpent" value="128795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -472,20 +500,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="rails app" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/welcome/home.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -695,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20181218115721_create_article_categories.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -770,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/articles/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -786,15 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        <state relative-caret-position="510">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -802,6 +795,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="85" column="7" selection-start-line="85" selection-start-column="7" selection-end-line="85" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/categories/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="3" selection-start-column="4" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
