@@ -6,9 +6,8 @@
 
 .container{
   margin-top: 10px;
-
+  align-content: center;
 }
-
 
 .bg-custom{
   background-color: bisque ;
@@ -82,14 +81,9 @@
   padding-left: 0;
 }
 
-.row{
-  float: center;
-}
 
 .badge{
-  background-color: #cef6f5;
   text-transform: uppercase;
-  letter-spacing: -1px;
   font-weight: bold;
 }
 
